@@ -1,0 +1,17 @@
+
+public class Dog {
+
+	public Dog() {
+		System.out.println("in dog constructor....");
+	}
+
+	int makeSound() {
+		System.out.println("Dog barks....");
+		return 0;
+	}
+	
+	int bites() {
+		System.out.println("Dog bites....");
+		return 0;
+	}
+}

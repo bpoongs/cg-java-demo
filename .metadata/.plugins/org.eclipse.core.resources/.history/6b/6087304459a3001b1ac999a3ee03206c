@@ -1,0 +1,15 @@
+
+public class PrimitivesDemo {
+
+	public static void main(String[] args) {
+
+		// 8 primitive data types
+		// whole numbers - byte, short, int, long
+		// decimal numbers - float, double
+		// boolean
+		// char
+		
+		int marks;
+	}
+
+}

@@ -1,0 +1,59 @@
+
+public class Room {
+	
+	private int length;
+	private int breadth;
+	private static int height;
+	private int roomNo;
+	private String roomColor;
+	
+	// static variables share a common memory
+	// static variables dont belong to a particular
+	// static variables can be access with the class name
+	
+	// constructors are special methods
+	// they have the same name a that of the class
+	// they do no return anything not even void
+	// they are invoked automatically when the object is created
+	
+	static {
+		height = 100;
+	}
+	
+	Room(int length, int breadth){
+		this.length = length;
+		this.breadth = breadth;
+		//this.height = height;
+	}
+	
+	Room(int length, int breadth, String roomColor){
+		this(length, breadth);
+		//this.length = length;
+		//this.breadth = breadth;
+		this.roomColor = roomColor;
+	}
+	
+	Room(int length, int breadth, String roomColor, int roomNo){
+		this(length, breadth, roomColor);
+		//this.length = length;
+		//this.breadth = breadth;
+		//this.roomColor = roomColor;
+		this.roomNo = roomNo;
+	}
+	
+	int calculateFloorArea() {
+		int floorArea = 0;
+		floorArea = length * breadth;
+		return floorArea;
+	}
+	
+	int calculatePaintingCost(int paintCost) {
+		int paintingCost = 0;
+		paintingCost = paintCost * (2 * height * (length + breadth));
+		return paintingCost;
+	}
+	
+	static int doubleHeight() {
+		return 2 * height;
+	}
+}

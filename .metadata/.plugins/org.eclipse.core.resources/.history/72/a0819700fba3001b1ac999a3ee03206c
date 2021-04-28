@@ -1,0 +1,11 @@
+
+public class RoomDemo {
+
+	public static void main(String[] args) {
+		
+		int marks; // declared the variable marks of type int
+		marks = 80; //
+		
+	}
+
+}

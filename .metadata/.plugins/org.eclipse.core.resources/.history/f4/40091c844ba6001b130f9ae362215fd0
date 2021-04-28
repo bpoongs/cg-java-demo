@@ -1,0 +1,18 @@
+
+public class FordFigoTitanium extends FordFigo{
+
+	int noOfAirbags;
+	
+	public FordFigoTitanium(String carModelNo, int chasisNo) {
+		//super(carModelNo, chasisNo);
+		this.carModelNo = carModelNo;
+		this.chasisNo = chasisNo;
+	}
+
+	int airbagsWorking() {
+		noOfAirbags = 4;
+		System.out.println("Airbags working...." + noOfAirbags);
+		return 0;
+	}
+	
+}

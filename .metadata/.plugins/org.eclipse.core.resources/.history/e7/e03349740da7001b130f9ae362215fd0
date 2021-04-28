@@ -1,0 +1,19 @@
+
+public class Cat extends Animal{
+
+	public Cat() {
+		System.out.println("in cat constructor");
+	}
+	
+	@Overide
+	int makeSound() {
+		System.out.println("Cat meows....");
+		return 0;
+	}
+	
+	int scratches() {
+		System.out.println("Cat scratches....");
+		return 0;
+	}
+
+}

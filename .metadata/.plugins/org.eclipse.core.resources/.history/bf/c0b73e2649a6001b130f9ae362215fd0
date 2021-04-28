@@ -1,0 +1,18 @@
+
+public class FordDemo {
+
+	public static void main(String[] args) {
+		FordFigo ff1 = new FordFigo("FF101", 1234);
+		ff1.switchOn();
+		ff1.breakingSystem();
+		ff1.switchOff();
+		
+		System.out.println("------------------------------");
+		
+		FordFigo ff2 = new FordFigo("FF101", 5678);
+		ff1.switchOn();
+		ff1.breakingSystem();
+		ff1.switchOff();
+	}
+
+}

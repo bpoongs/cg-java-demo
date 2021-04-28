@@ -1,0 +1,21 @@
+
+public class Room {
+	
+	int length;
+	int breadth;
+	int height;
+	int roomNo;
+	String roomColor;
+	
+	int calculateFloorArea() {
+		int floorArea = 0;
+		floorArea = length * breadth;
+		return floorArea;
+	}
+	
+	int calculatePaintingCost(int paintCost) {
+		int paintingCost = 0;
+		paintingCost = paintCost * (2 * height * (length + breadth));
+		return paintingCost;
+	}
+}

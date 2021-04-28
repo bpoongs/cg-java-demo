@@ -1,0 +1,13 @@
+
+public class Cat extends Animal{
+
+	public Cat() {
+		System.out.println("in cat constructor");
+	}
+	
+	int makeSound() {
+		System.out.println("Cat meows....");
+		return 0;
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class FordFigoTitanium extends FordFigo{
+
+	public FordFigoTitanium(String carModelNo, int chasisNo) {
+		//super(carModelNo, chasisNo);
+		
+		this.carModelNo = carModelNo;
+		this.chasisNo = chasisNo;
+	}
+
+	
+}

@@ -1,0 +1,14 @@
+
+public class AnimalDemo {
+
+	public static void main(String[] args) {
+
+		Cat cat = new Cat();
+		cat.breathe();
+		cat.mobility();
+		cat.makeSound();
+		cat.scratches();
+		
+	}
+
+}

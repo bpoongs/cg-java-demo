@@ -1,0 +1,17 @@
+
+public class FordFigo {
+	String carModelNo;
+	int chasisNo;
+	String color;
+	int noOfAirbags;
+	
+	int switchOn() {
+		System.out.println("Ford Figo switched on.....");
+		return 0;
+	}
+	
+	int switchOff() {
+		System.out.println("Ford Figo switched off.....");
+		return 0;
+	}
+}

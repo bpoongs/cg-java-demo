@@ -1,0 +1,23 @@
+
+public class RoomDemo {
+
+	public static void main(String[] args) {
+		
+		int marks; // declared the variable marks of type int
+		marks = 80; // assigned a value of 80 to marks variable.
+		
+		//int marks = 80; // initialized a variable marks of value 80.
+		
+		//Room r1; // declared a variable r1 of type Room
+		//r1 = new Room(); // assigned a room object to r1 variable
+		
+		Room r1 = new Room();
+		r1.length = 200;
+		r1.breadth = 150;
+		r1.height = 120;
+		
+		int area = r1.calculateFloorArea();
+		System.out.println("Floor area of r1: " + area);
+	}
+
+}

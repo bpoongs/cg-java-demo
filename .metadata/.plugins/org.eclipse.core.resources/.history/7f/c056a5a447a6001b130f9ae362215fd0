@@ -1,0 +1,9 @@
+
+public class FordDemo {
+
+	public static void main(String[] args) {
+		FordFigo ff1 = new FordFigo("FF101", 1234);
+		
+	}
+
+}

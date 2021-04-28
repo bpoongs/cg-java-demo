@@ -1,0 +1,20 @@
+
+public class AnimalDemo {
+
+	public static void main(String[] args) {
+
+		Cat cat = new Cat();
+		cat.breathe(); // method in super class
+		cat.mobility(); // method in super class
+		cat.makeSound(); // overriding method in sub class
+		cat.scratches(); // extra method in sub class
+	
+		Dog dog = new Dog();
+		dog.breathe();
+		dog.mobility();
+		dog.makeSound();
+		dog.bites();
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class Person {
+
+	// a class contains variables and methods
+	String name;
+	int height;
+	int weight;
+	String gender;
+	
+	System.out.println("hello");
+	
+	int eat() {
+		// code as to how the person should eat
+		return 0;
+	}
+	
+	int run() {
+		// code as to how the person should run
+		return 0;
+	}
+	
+}
